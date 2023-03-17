@@ -1,0 +1,49 @@
+body{
+    background-color:aliceblue;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Arial;
+}
+a{
+   font-size: 40px;
+
+}
+
+table{
+    position: relative;
+    left: 1010px;
+}
+
+.cell{
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    border-style: inset;
+}
+
+.blackcell{
+    background-color: black;
+}
+
+.whitecell{
+    background-color: white;
+}
+
+.greencell{
+    background-color: green;
+}
+
+.greenyellowcell{
+    background-color: greenyellow;
+}
+
+.redcell{
+    background-color: red;
+}
+
+.bluecell{
+    background-color: blue;
+}

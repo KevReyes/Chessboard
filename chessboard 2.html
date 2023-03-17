@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard 2</title>
+    <link rel="stylesheet" href="chessboard 2.css">
+    <script src= "chessboard 2.js"></script>
+</head>
+<body>
+    <h1>Simple chessboard.com</h1>
+<script>
+    var chessTable = document.createElement("table");
+
+for(var i=0; i<8; i++){
+    var tr = document.createElement("tr");
+
+        for (var j=0; j<8; j++){
+            var td = document.createElement("td");
+
+        if((i+j) % 2 == 0){
+            td.setAttribute("class", "cell whitecell");
+        }
+        else{
+            td.setAttribute("class", "cell blackcell");
+        }
+        
+        tr.appendChild(td);
+    }
+
+    chessTable.appendChild(tr);
+}
+
+document.body.appendChild(chessTable);
+
+</script>
+<a href="#" class="button">Basic</a>
+<script>
+    var chessTable = document.createElement("table");
+
+for(var i=0; i<8; i++){
+    var tr = document.createElement("tr");
+
+        for (var j=0; j<8; j++){
+            var td = document.createElement("td");
+
+        if((i+j) % 2 == 0){
+            td.setAttribute("class", "cell greencell");
+        }
+        else{
+            td.setAttribute("class", "cell greenyellow");
+        }
+        
+        tr.appendChild(td);
+    }
+
+    chessTable.appendChild(tr);
+}
+
+document.body.appendChild(chessTable);
+
+</script>
+<a href="#" class="button">Forest</a>
+<script>
+    var chessTable = document.createElement("table");
+
+for(var i=0; i<8; i++){
+    var tr = document.createElement("tr");
+
+        for (var j=0; j<8; j++){
+            var td = document.createElement("td");
+
+        if((i+j) % 2 == 0){
+            td.setAttribute("class", "cell redcell");
+        }
+        else{
+            td.setAttribute("class", "cell bluecell");
+        }
+        
+        tr.appendChild(td);
+    }
+
+    chessTable.appendChild(tr);
+}
+
+document.body.appendChild(chessTable);
+
+</script>
+<a href="#" class="button">Red v. Blue</a>
+</body>
+</html>
